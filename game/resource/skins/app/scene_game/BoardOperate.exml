@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BoardOperate" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:com_main="com_main.*">
+
+    <e:Label id="btnOperate" text="摇骰子"  size="60"/>
+
+    <e:Label id="lbValLucky" text="6"  horizontalCenter="0" size="60"/>
+
+</e:Skin>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BoardGrid" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:com_main="com_main.*" width="750" height="750">
+	<e:Image x="170" y="140" source="img_sep_hor_1" width="410"/>
+	<e:Image x="609" y="175" source="img_sep_hor_1" width="410" rotation="90"/>
+	<e:Image x="170" y="607" source="img_sep_hor_1" width="410"/>
+	<e:Image x="146" y="169" source="img_sep_hor_1" width="410" rotation="90"/>
+	
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="0" source="g0_3"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="6.92" source="g0_4"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="13.84"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="20.76" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="27.68"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="34.60"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="42.52"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="48.44" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="55.36"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="62.28"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="69.2"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="76.12" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="83.03"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="89.96" source="g0_4"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="96.88"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="103.8" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="110.72"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="117.64"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="124.56"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="131.48" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="138.4"/>4
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="145.32" source="g0_4"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="152.24"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="159.16" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="166.08"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="173"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="179.92"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="186.84" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="193.76"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="200.68"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="207.6"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="214.52" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="221.44"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="228.36"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="235.28"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="242.2" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="249.12"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="256.04"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="262.96"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="269.88" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="276.8"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="283.72"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="290.64"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="297.56" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="304.48"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="311.4"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="318.32"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="325.24" source="g0_2"/>
+	<e:Image source="g0_3" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="332.16"/>
+	<e:Image source="g0_4" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="339.08"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="346"/>
+	<e:Image x="375" y="375" anchorOffsetX="320" anchorOffsetY="9" rotation="352.92" source="g0_2"/>
+
+	<e:Image x="375" y="375" anchorOffsetX="280" anchorOffsetY="9" rotation="0" source="g0_3"/>
+	<e:Image x="375" y="375" anchorOffsetX="240" anchorOffsetY="9" rotation="0" source="g0_3"/>
+	<e:Image x="375" y="375" anchorOffsetX="200" anchorOffsetY="9" rotation="0" source="g0_3"/>
+	<e:Image x="375" y="375" anchorOffsetX="160" anchorOffsetY="9" rotation="0" source="g0_3"/>
+	<e:Image x="375" y="375" anchorOffsetX="120" anchorOffsetY="9" rotation="0" source="g0_3"/>
+	<e:Image x="375" y="375" anchorOffsetX="80" anchorOffsetY="9" rotation="0" source="g0_3"/>
+	
+	<e:Image x="375" y="375" anchorOffsetX="280" anchorOffsetY="9" rotation="90" source="g0_4"/>
+	<e:Image x="375" y="375" anchorOffsetX="240" anchorOffsetY="9" rotation="90" source="g0_4"/>
+	<e:Image x="375" y="375" anchorOffsetX="200" anchorOffsetY="9" rotation="90" source="g0_4"/>
+	<e:Image x="375" y="375" anchorOffsetX="160" anchorOffsetY="9" rotation="90" source="g0_4"/>
+	<e:Image x="375" y="375" anchorOffsetX="120" anchorOffsetY="9" rotation="90" source="g0_4"/>
+	<e:Image x="375" y="375" anchorOffsetX="80" anchorOffsetY="9" rotation="90" source="g0_4"/>
+	
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="280" anchorOffsetY="9" rotation="180"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="240" anchorOffsetY="9" rotation="180"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="200" anchorOffsetY="9" rotation="180"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="160" anchorOffsetY="9" rotation="180"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="120" anchorOffsetY="9" rotation="180"/>
+	<e:Image source="g0_1" x="375" y="375" anchorOffsetX="80" anchorOffsetY="9" rotation="180"/>
+	
+	<e:Image x="375" y="375" anchorOffsetX="280" anchorOffsetY="9" rotation="270" source="g0_2"/>
+	<e:Image x="375" y="375" anchorOffsetX="240" anchorOffsetY="9" rotation="270" source="g0_2"/>
+	<e:Image x="375" y="375" anchorOffsetX="200" anchorOffsetY="9" rotation="270" source="g0_2"/>
+	<e:Image x="375" y="375" anchorOffsetX="160" anchorOffsetY="9" rotation="270" source="g0_2"/>
+	<e:Image x="375" y="375" anchorOffsetX="120" anchorOffsetY="9" rotation="270" source="g0_2"/>
+	<e:Image x="375" y="375" anchorOffsetX="80" anchorOffsetY="9" rotation="270" source="g0_2"/>
+
+	<e:Image id="u0_0" source="g1_2" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="261" />
+	<e:Image id="u0_1" source="g1_2" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="270" />
+	<e:Image id="u0_2" source="g1_2" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="279" />
+
+	<e:Image id="u1_0" source="g1_3" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="-9" />
+	<e:Image id="u1_1" source="g1_3" x="375" y="375" anchorOffsetX="327" anchorOffsetY="16" rotation="0" />
+	<e:Image id="u1_2" source="g1_3" x="375" y="375" anchorOffsetX="327" anchorOffsetY="16" rotation="6.92" />
+	
+	<e:Image id="u2_0" source="g1_4" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="81" />
+	<e:Image id="u2_1" source="g1_4" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="90" />
+	<e:Image id="u2_2" source="g1_4" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="99" />
+
+	<e:Image id="u3_0" source="g1_1" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="171" />
+	<e:Image id="u3_1" source="g1_1" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="180" />
+	<e:Image id="u3_2" source="g1_1" x="375" y="375" anchorOffsetX="365" anchorOffsetY="16" rotation="189" />
+
+
+	<!-- anchorOffsetX = 308 / 355-->
+
+</e:Skin>

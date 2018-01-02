@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnShowOptions" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="160" height="50">
+    
+    <e:Image source="gs15" />
+    <e:Label id="labelDisplay" text="按 钮" textColor="0xE4C466"  horizontalCenter="-6" y="11" bold="true"/>
+    <e:Image source="btn_back"  rotation="-90" y="37" x="119"/>
+    
+</e:Skin>
+	

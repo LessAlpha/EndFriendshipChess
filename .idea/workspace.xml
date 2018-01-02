@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="210b91f8-57db-4536-aec4-e4fedd4ba111" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/tween/tween.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/egret/egret.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/socket/socket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/socket/socket.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/game/game.web.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/protobuf/protobuf.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/egret/egret.native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/res/res.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/socket/socket.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/res/res.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/eui/eui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/protobuf/protobuf.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/game/game.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/others/socket.io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/resource/skins/app/scene_game/BoardGrid.exml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/egret/egret.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/egret/egret.native.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/game/game.native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/eui/eui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/game/game.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/egret/egret.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/game/game.web.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/protobuf/protobuf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/exml.e.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/res/res.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/tween/tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/tween/tween.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/eui/eui.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/game/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/game/game.native.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/egret/egret.web.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/libs/modules/egret/egret.web.min.js" />
+      <change type="DELETED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\.wing\tasks.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\nodejs\node_fly_chess\doc\game_fly_air_plan.docx" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\scene_game\BoardGrid.exml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\nodejs\node_fly_chess\doc\~$me_fly_air_plan.docx" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\nodejs\node_fly_chess\game\resource\assets\scene_game\g0_0.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\nodejs\node_fly_chess\game\index2.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\.wing\launch.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/Bootstrap.js" afterPath="$PROJECT_DIR$/src/game/Bootstrap.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\public\PopTipOffline.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/public/PopTipOffline.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\touch\MulTouchObject.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/touch/MulTouchObject.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\TimerManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/TimerManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\icon_hat.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/icon_hat.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\ImageEffect.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/ImageEffect.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/PlayModel.js" afterPath="$PROJECT_DIR$/src/model/PlayModel.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\comp_top_load.json" afterPath="$PROJECT_DIR$/game/resource/assets/londing/comp_top_load.json" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\public\PopTip.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/public/PopTip.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\Router.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/Router.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btm_board\bg_num.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btm_board/bg_num.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\interfaces\IRouter.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/interfaces/IRouter.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\Long.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/Long.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\progress\CCProgress.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/progress/CCProgress.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\extend\CCRichLabel.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/extend/CCRichLabel.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_close_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_close_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\base\SceneBase.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/base/SceneBase.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\Bootstrap.ts" afterPath="$PROJECT_DIR$/game/src/com_main/Bootstrap.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\config\ConfigCollector.ts" afterPath="$PROJECT_DIR$/game/src/com_main/config/ConfigCollector.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\TimerUtil.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/TimerUtil.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\TweenAnim.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/TweenAnim.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\loading_bar_bg.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/loading_bar_bg.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\line_toggle.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/line_toggle.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\enmus\EnumCollector.ts" afterPath="$PROJECT_DIR$/game/src/com_main/enmus/EnumCollector.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\components\AComponent.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/components/AComponent.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\default.res.json" afterPath="$PROJECT_DIR$/game/resource/default.res.json" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\Main.ts" afterPath="$PROJECT_DIR$/game/src/Main.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\arrow_back.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/arrow_back.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\extend\CComboBox.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/extend/CComboBox.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\data\GameData.ts" afterPath="$PROJECT_DIR$/game/src/com_main/data/GameData.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\NativeHelper.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/NativeHelper.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\scene_game\BoardWaitBegin.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/scene_game/BoardWaitBegin.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\FrameManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/FrameManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_not_collect.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_not_collect.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_leftest_able.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_leftest_able.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\scene_game\SceneGame.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/scene_game/SceneGame.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\icon_chip.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/icon_chip.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\cache\CachePool.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/cache/CachePool.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\scene_start\PreloadingV.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/scene_start/PreloadingV.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\BerZerUtils.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/BerZerUtils.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\data\EffectData.ts" afterPath="$PROJECT_DIR$/game/src/com_main/data/EffectData.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\LibTw.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/LibTw.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\SortTools.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/SortTools.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\template\runtime\runtime_loader.js" afterPath="$PROJECT_DIR$/game/template/runtime/runtime_loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interface/Fly.js" afterPath="$PROJECT_DIR$/src/interface/Fly.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\map\MapAcceAction.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/map/MapAcceAction.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\scene_game\g0_3.png" afterPath="$PROJECT_DIR$/game/resource/assets/scene_game/g0_3.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\extend\UIMsgAnimManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/extend/UIMsgAnimManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_right_unable.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_right_unable.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\enmus\UINavEnum.ts" afterPath="$PROJECT_DIR$/game/src/com_main/enmus/UINavEnum.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\public\PopTipSizeSmall.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/public/PopTipSizeSmall.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\pop\APopUp.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/pop/APopUp.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\round_rotate.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/round_rotate.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\net\CSocketWeb.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/net/CSocketWeb.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\template\runtime\native_require.js" afterPath="$PROJECT_DIR$/game/template/runtime/native_require.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\pop_share\hand_share.png" afterPath="$PROJECT_DIR$/game/resource/assets/pop_share/hand_share.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\public\CompShare.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/public/CompShare.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\net\ServiceBuilder.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/net/ServiceBuilder.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_left_unable.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_left_unable.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\extend\YTabBar.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/extend/YTabBar.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\Easy.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/Easy.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\net\HttpClient.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/net/HttpClient.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\models\StartModel.ts" afterPath="$PROJECT_DIR$/game/src/com_main/models/StartModel.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\md5.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/md5.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\components\ResUtils.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/components/ResUtils.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\config\ConfigUIPos.ts" afterPath="$PROJECT_DIR$/game/src/com_main/config/ConfigUIPos.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\Notification.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/Notification.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\LocalData.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/LocalData.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\controllers\PlayController.ts" afterPath="$PROJECT_DIR$/game/src/com_main/controllers/PlayController.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\logo_banner.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/logo_banner.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\scene_start\SceneStart.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/scene_start/SceneStart.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\scene_game\BoardGrid.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/scene_game/BoardGrid.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\base\CView.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/base/CView.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\interfaces\INotification.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/interfaces/INotification.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\components\ThemeUtils.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/components/ThemeUtils.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\scene_game\SceneGame.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/scene_game/SceneGame.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\SoundGame.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/SoundGame.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\data\AccountInfo.ts" afterPath="$PROJECT_DIR$/game/src/com_main/data/AccountInfo.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\components\public\RadioSlider.exml" afterPath="$PROJECT_DIR$/game/resource/skins/components/public/RadioSlider.exml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/proto/game.proto" afterPath="$PROJECT_DIR$/src/proto/game.proto" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btm_board\bg_tips_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btm_board/bg_tips_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\touch\MulTouchEvent.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/touch/MulTouchEvent.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btm_board\bg_inner_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btm_board/bg_inner_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\comp_top_load.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/comp_top_load.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\scene_game\BoardOperate.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/scene_game/BoardOperate.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\extend\MessageTip.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/extend/MessageTip.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_righest_unable.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_righest_unable.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\data\FlyInfo.ts" afterPath="$PROJECT_DIR$/game/src/com_main/data/FlyInfo.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btm_board\shdow_overphoto.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btm_board/shdow_overphoto.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btm_board\bg_menu_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btm_board/bg_menu_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\pop\InfoDialog.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/pop/InfoDialog.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\enmus\CMDS.ts" afterPath="$PROJECT_DIR$/game/src/com_main/enmus/CMDS.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\public\CompUIBlockRequest.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/public/CompUIBlockRequest.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\enmus\ErrorMsgEnum.ts" afterPath="$PROJECT_DIR$/game/src/com_main/enmus/ErrorMsgEnum.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\egretProperties.json" afterPath="$PROJECT_DIR$/game/egretProperties.json" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\scene_index\SceneIndex.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/scene_index/SceneIndex.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\controllers\IndexController.ts" afterPath="$PROJECT_DIR$/game/src/com_main/controllers/IndexController.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\cache\ImageCache.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/cache/ImageCache.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\btn_wx_login.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/btn_wx_login.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_share.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_share.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\cache\LRUCache.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/cache/LRUCache.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\data\UserInfo.ts" afterPath="$PROJECT_DIR$/game/src/com_main/data/UserInfo.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\public\PopTipSizeMiddle.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/public/PopTipSizeMiddle.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\extend\SelectedTab.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/extend/SelectedTab.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interface/RoomInfo.js" afterPath="$PROJECT_DIR$/src/interface/RoomInfo.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\Utils.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/Utils.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\enmus\ProtoEnum.ts" afterPath="$PROJECT_DIR$/game/src/com_main/enmus/ProtoEnum.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\pop\InfoTips.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/pop/InfoTips.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_right_able.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_right_able.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\net\CSocketIO.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/net/CSocketIO.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\components\public\btn\BtnYellowMiddle.exml" afterPath="$PROJECT_DIR$/game/resource/skins/components/public/btn/BtnYellowMiddle.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\extend\UIOrganizeHelper.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/extend/UIOrganizeHelper.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\controllers\PublicController.ts" afterPath="$PROJECT_DIR$/game/src/com_main/controllers/PublicController.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\UpManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/UpManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\touch\MulTouch.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/touch/MulTouch.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\components\public\RadioYellow.exml" afterPath="$PROJECT_DIR$/game/resource/skins/components/public/RadioYellow.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\config\ConfigCollectorBuilder.ts" afterPath="$PROJECT_DIR$/game/src/com_main/config/ConfigCollectorBuilder.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\pop_share\hand_share.json" afterPath="$PROJECT_DIR$/game/resource/assets/pop_share/hand_share.json" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\TextureManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/TextureManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btm_board\bg_popup_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btm_board/bg_popup_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\App.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/App.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\base\CComponent.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/base/CComponent.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\tsconfig.json" afterPath="$PROJECT_DIR$/game/tsconfig.json" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\events\CCTouchEventData.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/events/CCTouchEventData.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\interfaces\IController.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/interfaces/IController.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interface/UserInfo.js" afterPath="$PROJECT_DIR$/src/interface/UserInfo.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\components\public\btn\BtnShowOptions.exml" afterPath="$PROJECT_DIR$/game/resource/skins/components/public/btn/BtnShowOptions.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\scene_game\g0_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/scene_game/g0_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\base\ListItemRenderer.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/base/ListItemRenderer.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\config\game.proto" afterPath="$PROJECT_DIR$/game/resource/config/game.proto" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\TopManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/TopManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_left_able.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_left_able.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\controllers\StartController.ts" afterPath="$PROJECT_DIR$/game/src/com_main/controllers/StartController.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\interfaces\InterfaceCollector.ts" afterPath="$PROJECT_DIR$/game/src/com_main/interfaces/InterfaceCollector.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_yellow_bg.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_yellow_bg.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\scene_game\BoardUsers.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/scene_game/BoardUsers.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\base\CLabel.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/base/CLabel.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_collected.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_collected.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\GuideManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/GuideManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\scene_index\SceneIndex.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/scene_index/SceneIndex.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\scene_game\g0_4.png" afterPath="$PROJECT_DIR$/game/resource/assets/scene_game/g0_4.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\models\RoomModel.ts" afterPath="$PROJECT_DIR$/game/src/com_main/models/RoomModel.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\default.thm.json" afterPath="$PROJECT_DIR$/game/resource/default.thm.json" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\public\TipDuration.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/public/TipDuration.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\data\GameConst.ts" afterPath="$PROJECT_DIR$/game/src/com_main/data/GameConst.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\ThemeAdapter.ts" afterPath="$PROJECT_DIR$/game/src/ThemeAdapter.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\scene_game\g0_2.png" afterPath="$PROJECT_DIR$/game/resource/assets/scene_game/g0_2.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\scene_game\BoardOperate.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/scene_game/BoardOperate.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\models\PlayModel.ts" afterPath="$PROJECT_DIR$/game/src/com_main/models/PlayModel.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\AppConfig.ts" afterPath="$PROJECT_DIR$/game/src/com_main/AppConfig.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\loading_bar_progress.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/loading_bar_progress.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\AssetAdapter.ts" afterPath="$PROJECT_DIR$/game/src/AssetAdapter.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_radio_open_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_radio_open_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_big_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_big_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\map\MapBitmap.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/map/MapBitmap.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\scene_game\BoardWaitBegin.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/scene_game/BoardWaitBegin.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\scene_start\SceneStart.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/scene_start/SceneStart.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\net\Packet.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/net/Packet.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\public\TipDuration.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/public/TipDuration.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\NTweenAction.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/NTweenAction.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btm_board\bg_card_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btm_board/bg_card_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\res_load\ResLoad.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/res_load/ResLoad.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\button\ComButton.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/button/ComButton.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_righest_able.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_righest_able.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\MenuManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/MenuManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\components\public\btn\BtnDarkOnYellow.exml" afterPath="$PROJECT_DIR$/game/resource/skins/components/public/btn/BtnDarkOnYellow.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\ObjectPool.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/ObjectPool.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\AnimateTimer.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/AnimateTimer.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_leftest_unable.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_leftest_unable.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/enum/enums.js" afterPath="$PROJECT_DIR$/src/enum/enums.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\line_yellow.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/line_yellow.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\TimerServerUtils.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/TimerServerUtils.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\eui_skins\ButtonSkin.exml" afterPath="$PROJECT_DIR$/game/resource/eui_skins/ButtonSkin.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\common\L.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/common/L.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\bg_warnning.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/bg_warnning.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btm_board\bg_mask_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btm_board/bg_mask_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_comm_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_comm_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\LoadingUI.ts" afterPath="$PROJECT_DIR$/game/src/LoadingUI.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\EventHandller.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/EventHandller.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\config\ConfigErrorMsg.ts" afterPath="$PROJECT_DIR$/game/src/com_main/config/ConfigErrorMsg.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\template\runtime\native_loader.js" afterPath="$PROJECT_DIR$/game/template/runtime/native_loader.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\interfaces\IObserver.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/interfaces/IObserver.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\View.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/View.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\components\public\BoardOptionsSelect.exml" afterPath="$PROJECT_DIR$/game/resource/skins/components/public/BoardOptionsSelect.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\Observer.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/Observer.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_back.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_back.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_ellipse_yellow.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_ellipse_yellow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\wingProperties.json" afterPath="$PROJECT_DIR$/game/wingProperties.json" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\cviews\scene_game\BoardGameMenu.ts" afterPath="$PROJECT_DIR$/game/src/com_main/cviews/scene_game/BoardGameMenu.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\v2\public_btn\btn_radio_close_1.png" afterPath="$PROJECT_DIR$/game/resource/assets/v2/public_btn/btn_radio_close_1.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\NumberRollAction.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/NumberRollAction.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\SpriteAnimation.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/SpriteAnimation.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\bg_loading.jpg" afterPath="$PROJECT_DIR$/game/resource/assets/londing/bg_loading.jpg" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\SceneManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/SceneManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\events\EventManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/events/EventManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\components\progress\LoadComponent.ts" afterPath="$PROJECT_DIR$/game/src/com_main/components/progress/LoadComponent.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\favicon.ico" afterPath="$PROJECT_DIR$/game/favicon.ico" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\skins\app\public\CompRotateRound.exml" afterPath="$PROJECT_DIR$/game/resource/skins/app/public/CompRotateRound.exml" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\core\Controller.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/core/Controller.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\ActionManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/ActionManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\resource\assets\londing\btn_guest.png" afterPath="$PROJECT_DIR$/game/resource/assets/londing/btn_guest.png" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\UIMoneyEffectManager.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/UIMoneyEffectManager.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\utils\action\UIAnimUtil.ts" afterPath="$PROJECT_DIR$/game/src/com_main/utils/action/UIAnimUtil.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_agame\R.ts" afterPath="$PROJECT_DIR$/game/src/com_agame/R.ts" />
+      <change type="MOVED" beforePath="D:\projects\nodejs\node_fly_chess\public\game\src\com_main\enmus\WayPlay.ts" afterPath="$PROJECT_DIR$/game/src/com_main/enmus/WayPlay.ts" />
+    </list>
+    <ignored path="node_fly_chess.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="node_fly_chess" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Bootstrap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/Bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/RoomModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomInfo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interface/RoomInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datagame.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/datagame.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/PlayModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmds.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/cmds.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interface/UserInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fly.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interface/Fly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="25" />
+              <caret line="37" column="53" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.proto" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/proto/game.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/game/Bootstrap.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/src/enum/enums.js" />
+        <option value="$PROJECT_DIR$/src/interface/UserInfo.js" />
+        <option value="$PROJECT_DIR$/src/config/cmds.js" />
+        <option value="$PROJECT_DIR$/src/model/PlayModel.js" />
+        <option value="$PROJECT_DIR$/src/interface/RoomInfo.js" />
+        <option value="$PROJECT_DIR$/src/interface/Fly.js" />
+        <option value="$PROJECT_DIR$/src/proto/game.proto" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_fly_chess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="210b91f8-57db-4536-aec4-e4fedd4ba111" name="Default" comment="" />
+      <created>1498892854564</created>
+      <option name="number" value="Default" />
+      <updated>1498892854564</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15476191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3382353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/game/Bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/RoomModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/RoomInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/datagame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PlayModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/cmds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/Fly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="25" />
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proto/game.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/RoomModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/RoomInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/datagame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PlayModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/cmds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/Fly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="25" />
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proto/game.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enum/enums.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/RoomModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/cmds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proto/game.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PlayModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enum/enums.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/RoomModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PlayModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enum/enums.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/datagame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/cmds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/RoomModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PlayModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/src/com_main/data/FlyInfo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2072072">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/RoomInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/Fly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="25" />
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proto/game.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

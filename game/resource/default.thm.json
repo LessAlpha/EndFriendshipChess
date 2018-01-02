@@ -1,0 +1,30 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/eui_skins/ButtonSkin.exml",
+    "resource/skins/app/public/CompRotateRound.exml",
+    "resource/skins/components/public/btn/BtnYellowMiddle.exml",
+    "resource/skins/app/public/PopTipSizeMiddle.exml",
+    "resource/skins/app/public/PopTipSizeSmall.exml",
+    "resource/skins/app/public/TipDuration.exml",
+    "resource/skins/app/scene_game/BoardGrid.exml",
+    "resource/skins/app/scene_game/BoardOperate.exml",
+    "resource/skins/app/scene_game/BoardUsers.exml",
+    "resource/skins/app/scene_game/BoardWaitBegin.exml",
+    "resource/skins/app/scene_game/SceneGame.exml",
+    "resource/skins/app/scene_index/SceneIndex.exml",
+    "resource/skins/app/scene_start/SceneStart.exml",
+    "resource/skins/components/public/BoardOptionsSelect.exml",
+    "resource/skins/components/public/RadioSlider.exml",
+    "resource/skins/components/public/RadioYellow.exml",
+    "resource/skins/components/public/btn/BtnDarkOnYellow.exml",
+    "resource/skins/components/public/btn/BtnShowOptions.exml"
+  ],
+  "styles": {
+    "pop_create_room_minus_card": {
+      "size": 20,
+      "textColor": "0xfdd899"
+    }
+  }
+}
