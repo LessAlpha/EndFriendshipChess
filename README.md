@@ -1,2 +1,2 @@
-# EndFriendshipChess
-友尽飞行棋
+# node_fly_chess
+real time fly chess
