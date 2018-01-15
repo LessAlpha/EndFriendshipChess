@@ -9,7 +9,7 @@ var bootstrap = new (require('./src/game/Bootstrap'))(io);
 //var db = new (require('./src/db/DB'))();
 var fs = require('fs');
 
-app.use(express.static(path.join(__dirname, 'public')));// 设置静态资源根目录
+app.use(express.static(path.join(__dirname, 'public')));// 设置静态资源根目录，项目中的静态资源必须放在public/下面，且一级路径还要加上public/
 
 app.all('*', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");

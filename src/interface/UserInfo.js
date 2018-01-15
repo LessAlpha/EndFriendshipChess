@@ -15,7 +15,7 @@ var UserInfo = function(uId, nick, photo) {
 
     this.arrFly = [new Fly(), new Fly(), new Fly()];
     this.nSumFlying = 0;
-    this.nSumFlied = 0;
+    this.nSumFlyFinished = 0;
 
     this.nDotLucky = null;
     this.nIndFlying = null;
@@ -74,7 +74,7 @@ var UserInfo = function(uId, nick, photo) {
 
     this.succeedFlyOne = function() {
         this.nSumFlying --;
-        this.nSumFlied ++;
+        this.nSumFlyFinished ++;
         if(this.nSumFlying==0)  this.nTimesNotSix = 0;
     };
 
@@ -85,7 +85,7 @@ var UserInfo = function(uId, nick, photo) {
     };
 
     this.amISucceed = function() {
-        return this.nSumFlied == conf.SumFly;
+        return this.nSumFlyFinished == conf.SumFly;
     };
 
     this.clearOperateInfo = function(){
@@ -103,4 +103,5 @@ var UserInfo = function(uId, nick, photo) {
     };
 
 };
+
 module.exports = UserInfo;

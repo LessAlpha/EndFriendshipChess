@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CompUIBlockRequest" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="903" height="1334">
+    <e:Rect width="100%" height="100%" fillColor="0x000000"  fillAlpha="0.4"/>
+    <e:Image id="imgRound" source="round_rotate" horizontalCenter="0" width="187" height="185" verticalCenter="0"/>
+	<e:Label id="lbInfo" text="" horizontalCenter="0" verticalCenter="0" bold="true"/>
+    
+</e:Skin>

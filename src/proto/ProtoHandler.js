@@ -22,7 +22,7 @@ ProtoBuf.load("./src/proto/game.proto", function(err, root) {
 exports.decodeMessage = function(cmd, buffer){
     var cP = arrClassProto[cmd][0];
     if(!cP){
-        console.log('no proto definition', cmd);
+        console.warn('no proto definition', cmd);
         return;
     }
     var obj = builder.lookup(cP).decode(buffer);
@@ -32,7 +32,7 @@ exports.decodeMessage = function(cmd, buffer){
 exports.sendMessage = function(socket, cmd, obj){
     var cP = arrClassProto[cmd][1];
     if(!cP){
-        console.log('no proto definition', cmd);
+        console.warn('no proto definition', cmd);
         return;
     }
     var c = builder.lookup(cP);

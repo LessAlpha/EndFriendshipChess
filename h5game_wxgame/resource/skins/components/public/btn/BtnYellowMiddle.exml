@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnYellowMiddle" states="up,down,disabled" width="252" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect width="252" height="70" ellipseWidth="10" ellipseHeight="10" fillColor="0xD3A845" 
+        fillAlpha.up="0" strokeColor.up="0xd3a845" strokeWeight.up="3" alpha.disabled="0.5" />
+    <e:Label id="labelDisplay" text="按钮" size="34" horizontalCenter="0" verticalCenter="0" bold="true"
+         textColor.up="0xD3A845"  textColor.down="0x000000" alpha.disabled="0.5"/>
+</e:Skin>

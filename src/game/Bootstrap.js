@@ -40,6 +40,7 @@ var Bootstrap = function(){
     };
     this.disConnect = function(socket, data){
         console.log('someone disconnected');
+        
     };
 };
 

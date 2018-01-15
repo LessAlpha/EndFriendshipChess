@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RadioSlider" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+    <e:Label id="labelDisplay" textColor="0xffffff" size="24" horizontalCenter="0"
+            textColor.upAndSelected="0xF5BC63" textColor.downAndSelected="0xF5BC63" textColor.disabledAndSelected="0xF5BC63"
+            size.upAndSelected="36" size.downAndSelected="36" size.disabledAndSelected="36"/>
+</e:Skin>

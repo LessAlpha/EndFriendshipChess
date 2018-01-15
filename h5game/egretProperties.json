@@ -1,0 +1,45 @@
+{
+  "engineVersion": "5.1.2",
+  "compilerVersion": "5.1.2",
+  "target": {
+    "current": "web"
+  },
+  "template": {},
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "commonjs"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "protobuf",
+      "path": "E:/Program Files/Egret/egret_third_libsrc-master/protobuf"
+    },
+    {
+      "name": "socket.io",
+      "path": "E:/Program Files/Egret/egret_third_libsrc-master/socket.io/libsrc"
+    }
+  ]
+}

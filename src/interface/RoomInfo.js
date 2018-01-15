@@ -14,6 +14,7 @@ var RoomInfo = function(userInfoHost, nSumUser){
     this.bStarted = false;// 是否已经在玩中
     this.arrUserInfo = [];// 全部玩家
     this.grids = null;// 地图
+    
 
     this.nIndOperating = -1;// 操作玩家的位置索引 从0开始
     
@@ -97,4 +98,5 @@ var RoomInfo = function(userInfoHost, nSumUser){
     }
 
 };
+
 module.exports = RoomInfo;

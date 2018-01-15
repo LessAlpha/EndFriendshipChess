@@ -1,4 +1,6 @@
-
+/**
+ * 游戏玩法逻辑
+ */
 var cmds = require('../config/cmds');
 var err = require('../config/err');
 var tool = require('../utils/tool');

@@ -1,4 +1,6 @@
-
+/**
+ * 棋子
+ */
 var enums = require('../enum/enums');
 var tool = require('../utils/tool');
 var conf = require('../config/conf');
@@ -111,6 +113,7 @@ var Fly = function() {
     this.beBroken = function() {
         this.nInd = this.nIndGridGlobal = -1;
     };
+
     this.adjustLocalAndGlobal = function(room, userInfo) {
         if(this.nInd==conf.SumGridsFinshed) {// succeed
             userInfo.succeedFlyOne();

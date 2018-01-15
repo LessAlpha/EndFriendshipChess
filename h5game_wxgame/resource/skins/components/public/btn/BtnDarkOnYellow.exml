@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnDarkOnYellow" width="120" height="76" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">	
+    <e:Image source="btn_ellipse_yellow" scale9Grid="6,11,38,66" width="100%" height="100%" />
+    <e:Label id="labelDisplay" text="按钮" textColor="0x211c17" size="34" horizontalCenter="0" verticalCenter="0"   bold="true" fontFamily="KaiTi"/>
+</e:Skin>

@@ -1,4 +1,6 @@
-
+/**
+ * 游戏房间逻辑
+ */
 var cmds = require('../config/cmds');
 var err = require('../config/err');
 var tool = require('../utils/tool');
@@ -10,11 +12,12 @@ var RoomInfo = require('../interface/RoomInfo');
 exports.handle = function(cmd, socket, objReq){
     var objResp = null;
     var userInfo = null;
-    switch(cmd){
+    switch(cmd) {
         case cmds.LOGIN:
             var bHasLogin = datagame.socketsUser[objReq.uId]!=undefined;
-            if(bHasLogin) {
-
+            if(bHasLogin) {// TODO 用户重连处理
+                // console.log("重连");
+                return;
             }
             datagame.socketsUser[objReq.uId] = socket;
             datagame.usersInfo[socket.id] = new UserInfo(objReq.uId, objReq.nick, objReq.photo);

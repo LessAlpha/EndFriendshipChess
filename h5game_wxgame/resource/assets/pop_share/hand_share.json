@@ -1,0 +1,28 @@
+{"mc":{
+	"hand_share":{
+		"frameRate":8,
+		"labels":[
+			{"name":"hand_share","frame":1,"end":2}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"hand0",
+			"x":7,
+			"y":5
+			},
+			{
+			"res":"hand1",
+			"x":7,
+			"y":5
+			}
+			]
+}},
+	"res":{
+		"hand0":{"x":2,"y":2,"w":99,"h":142},
+		"hand1":{"x":105,"y":2,"w":99,"h":133}
+	}}

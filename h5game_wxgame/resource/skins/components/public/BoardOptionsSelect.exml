@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BoardOptionsSelect" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="160" minHeight="50">
+    
+    <e:Image source="btn_back"  rotation="-90" y="37" x="119"/>
+
+    <e:List id="lsBtns">
+        <e:layout >
+        <e:VerticalLayout />
+        </e:layout>
+        <e:itemRendererSkinName>
+            <e:Skin width="160" height="50">
+                <e:Label id="labelDisplay" text="{data}" textColor="0xE4C466" horizontalCenter="-6" y="11" bold="true"/>
+                <e:Image y="49" source="gs13" rotation="-90" height="160" />
+            </e:Skin>
+        </e:itemRendererSkinName>
+        <!--<e:ArrayCollection>
+            <e:Array>
+                <e:Object label="按 钮" />
+            </e:Array>
+        </e:ArrayCollection>-->
+
+    </e:List>
+
+    <e:Image source="gs15" height="100%"  scale9Grid="20,17,120,19"/>
+    
+</e:Skin>
+	
