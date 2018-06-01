@@ -1,34 +1,11 @@
+
 module AGame {
-	class ProtoBuilder {
-		private m_pBuilder: any;
 
-		public constructor() {
-			var proto = RES.getRes("game_proto");
-			this.m_pBuilder = dcodeIO.ProtoBuf.loadProto(proto);
-		}
-
-		public getClazz(name: string) {
-			return this.m_pBuilder.build(name);
-		}
-
-		public newClazz(protocol: number, name: any) {
-			var clazz: any = this.getClazz(name);
-			var instance = new clazz();
-			// instance.protocol = protocol;
-			return instance;
-		}
-
-		public decode(name: any, buffer: any) {
-			var clazz = this.getClazz(name);
-			return clazz.decode(buffer);
-		}
-
-	}
 	export class ServiceBuilder {
 		/**
 		 * 提供数据发送与接收的相关接口
 		 */
-		private m_pBuilder: any = new ProtoBuilder();
+		// private m_pBuilder: any = new ProtoBuilder();
 		private m_pObserver: HandlerObserver = new HandlerObserver();
 		private m_pProtocolMap: any = {};
 		private m_pViewEvents: any = {};
@@ -93,20 +70,15 @@ module AGame {
 			return protos.length == 2 ? protos[1] : protos[2];
 		}
 
-		/** 获取一个请求服务端的proto */
-		public newClazz(protocol: number) {
-			return this.m_pBuilder.newClazz(protocol, this.getProtoByReq(protocol));
+		/** 解码服务端发送过来的数据，接收到数据时解析 */
+		public encode(protocol: number, dataSend: any) {
+			
+			return ;//this.m_pBuilder.encode(this.getProtoByReq(protocol), dataSend);
 		}
 		/** 解码服务端发送过来的数据，接收到数据时解析 */
 		public decode(protocol: number, buffer: any) {
-			return this.m_pBuilder.decode(this.getProtoByResp(protocol), buffer);
+			return ;//this.m_pBuilder.decode(this.getProtoByResp(protocol), buffer);
 		}
-		/** 解码服务端发送过来的数据 */
-		public decode_name(name: any, buffer: any) {
-			return this.m_pBuilder.decode(name, buffer);
-		}
-
-		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		private static REQ_RESP_DIFF = 0;
 		private static _instance: ServiceBuilder;
@@ -123,7 +95,8 @@ module AGame {
 			ServiceBuilder.Instance.registerModel(protocol, commandClassRef, reqClass, resClass);
 		}
 		/** 从服务端接收数据后的解析和事件派发 */
-		public static notifyProtoHandler(protocol: number, data?: any) {
+		public static notifyProtoHandler(protocol: number, dataProto: any) {
+            let data = ServiceBuilder.decode(protocol, dataProto);
 			ServiceBuilder.Instance.notifyModel(protocol - ServiceBuilder.REQ_RESP_DIFF, data);
 		}
 
@@ -140,26 +113,20 @@ module AGame {
 			ServiceBuilder.Instance.removeProxy(target);
 		}
 
-		/** 获取一个请求服务端的proto，发送数据时调用 */
-		public static newClazz(protocol: number) {
-			return ServiceBuilder.Instance.newClazz(protocol);
+		/** 编码服务端发送过来的数据，接收到数据时加密 */
+		public static encode(protocol: number, buffer: any) {
+			return ServiceBuilder.Instance.encode(protocol, buffer);
 		}
 		/** 解码服务端发送过来的数据，接收到数据时解析 */
 		public static decode(protocol: number, buffer: any) {
 			return ServiceBuilder.Instance.decode(protocol, buffer);
 		}
-		/** 解码服务端发送过来的数据，接收到数据时解析 */
-		public static decode_name(name: any, buffer: any) {
-			return ServiceBuilder.Instance.decode_name(name, buffer);
-		}
 
 		/** 发送协议数据，可同时注册回调 */
 		public static sendMessage(protocol:number, sendData: any, notify?: Function, target?: any) {
+			let dataEncode = ServiceBuilder.Instance.encode(protocol, sendData);
 			ServiceBuilder.Instance.registerProxy(protocol, notify, target);
-			CSocket.getInstance().sendProtocol(protocol, sendData);
+			SocketIO.SocketCur.sendProtocol(protocol, dataEncode);
 		}
-		//public static requestWithProtocol(protocol: number, notify: Function, target: any) {
-		//	this.sendMessage(ServiceBuilder.Instance.newClazz(protocol), notify, target);
-		//}
 	}
 }

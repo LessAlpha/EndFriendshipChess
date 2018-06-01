@@ -7,10 +7,10 @@ module AGame {
          * @param data              以 & 连接
          * @param responseType
          */
-        public static get(callback: Function, target: any, data: any, responseType: string = "JSON"): void {
+        public static get(path:string, callback: Function, target: any, data: any, responseType: string = "JSON"): void {
             var client = new HttpClient();
             client.responseType = responseType;
-            client.send(egret.HttpMethod.GET, callback, target, data);
+            client.send(egret.HttpMethod.GET, path, callback, target, data);
         }
 
         /**
@@ -20,10 +20,10 @@ module AGame {
          * @param data
          * @param responseType
          */
-        public static post(callback: Function, target: any, data: any, responseType: string = "JSON"): void {
+        public static post(path:string, callback: Function, target: any, data: any, responseType: string = "JSON"): void {
             var client = new HttpClient();
             client.responseType = responseType;
-            client.send(egret.HttpMethod.POST, callback, target, data);
+            client.send(egret.HttpMethod.POST, path, callback, target, data);
         }
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -64,7 +64,7 @@ module AGame {
          * @param target
          * @param data
          */
-        public send(method: string, callback: Function, target: any, data: any) {
+        public send(method: string, path:string, callback: Function, target: any, data: any) {
             this.returnFunc = callback;
             this.target = target;
             this.request = new egret.HttpRequest();
@@ -72,7 +72,7 @@ module AGame {
             var req = this.request;
             var params = this.paramsBuilder(data);
 
-            var server_url = HttpClient.serverUrl;
+            var server_url = HttpClient.serverUrl + path;
             if (method == egret.HttpMethod.POST) {
                 req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             } else {

@@ -1,0 +1,48 @@
+
+# 
+指令：
+
+
+    平台登陆
+        REQ: 
+            {
+                uId: string,// 用户ID
+                source: string,// 平台来源
+                psw: string,// 密码
+            }
+        RESP:
+            {
+                res: number,// 状态码
+            }
+        
+    开建房间
+        REQ:
+            {
+                nSumPeople: number,// 房间人数
+            }
+        RESP：
+            {
+                strIdRoom: string,// 房间ID
+                strIpGameServer: string,// 分配到的游戏服IP
+                nPortGameServer: number,// 分配到的游戏服端口
+            }
+
+    进入房间
+        REQ:
+            {
+                strIdRoom: string,// 房间ID
+            }
+        RESP：
+            {
+                strIdRoom: string,// 房间ID
+                strIpGameServer: string,// 分配到的游戏服IP
+                nPortGameServer: number,// 分配到的游戏服端口
+                nSumPeople: number,// 房间人数
+            }
+
+    
+    解散房间
+
+
+
+

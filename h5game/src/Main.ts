@@ -26,11 +26,11 @@ class Main extends eui.UILayer {
         this.isResourceLoadEnd = true;
         this.createScene();
         AGame.HttpClient.serverUrl = RES.getRes('global').urlHttp;
-        AGame.HttpClient.get((data)=>{
-            AGame.info('/', data);
-            RES.getRes('global').urlSocket = data.urlSocket;
-            AGame.CSocket.getInstance().connect(data.urlSocket);
-        }, this, '');
+        // AGame.HttpClient.get("/", (data)=>{
+        //     AGame.info('/', data);
+        //     RES.getRes('global').urlSocket = data.urlSocket;
+            AGame.CSocket.getInstance().connect("http://127.0.0.1:18080/");
+        // }, this, '');
     }
 
     private createScene(){

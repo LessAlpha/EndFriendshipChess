@@ -33,7 +33,6 @@ module AGame {
 		public notifyObservers( notification:INotification ):void
 		{
 			var notificationName:any = notification.getName();
-	
 			var observersRef = this.m_pObserverMap[notificationName];
 			if( observersRef )
 			{

@@ -44,6 +44,7 @@ message StartGameReq {
 message StartGameResp {
 	int32 res = 1;
 }
+
 message OperateLuckyNextResp {
 	int32 nPos = 1;// 下一位操作玩家位置索引
 }
@@ -64,15 +65,10 @@ message OperateFlyResp {
 	int32 nPos = 1;// 操作玩家位置索引
 	int32 fInd = 2;// 走动棋子的索引
 	int32 nStep = 3;// 前进点数 摇出的骰子个数
-	int32 typeGridTo = 6;// 进入的格子类型 前进骰子结果数后
-	int32 nDesti = 4;// 终点格子位置 此次的最终位置（由骰子和进入格子类型决定的最终位置）
-	int32 res = 5;
-	repeated int32 flBk = 7;
+	int32 nDesti = 4;// 终点格子位置
+	int32 res = 5;// 状态码
 }
 
-message ResultGameResp {
-
-}
 
 message BroadcastRoomInfo {
 	int32 operate = 1;// 1 玩家进入；2 玩家掉线；3 玩家重新上线；
@@ -80,6 +76,7 @@ message BroadcastRoomInfo {
 	string nick = 3;
 	string photo = 4;
 	int32 nPos = 5;
+	string skin = 6;
 }
 message BroadcastOperateInfo {
 	int32 operate = 1;// 1 玩家进入；2 玩家掉线；3 玩家重新上线；
@@ -91,10 +88,10 @@ message BroadcastOperateInfo {
 
 
 // 示例
-//message example{
-//	string cityId = 1;
-//	LoginResp info = 2;
-//	bool bo = 3;
-//	repeated string buildingId = 4;
-//	optional int32 soldierType = 5;
-//}
+message example{
+	string cityId = 1; 
+	LoginResp info = 2;
+	bool bo = 3; 
+	repeated string buildingId = 4; 
+	optional int32 soldierType = 5; 
+}

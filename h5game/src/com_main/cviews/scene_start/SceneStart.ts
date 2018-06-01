@@ -23,8 +23,8 @@ module com_main {
             this.modifyUserId(LocalData.getData('USER_ID')); // GameConst.AccountInfo.USER_ID);
             Utils.setProps(this.imgBtnWxLogin,{touchEnabled:false, alpha:0.7});
             RES.loadGroup('index');
-            // this.drawGrids(3, 10);
-            this.drawGrids(4, 7);
+            this.drawGrids(3, 10);
+            // this.drawGrids(4, 7);
         }
         private drawGrids(nSumColor:number, nSumGridOneColor: number){
             let nSumGrids: number = nSumColor * nSumGridOneColor,
@@ -47,7 +47,7 @@ module com_main {
                 imgColor.anchorOffsetY = imgColor.height/2;
                 imgColor.x = this.stage.stageWidth/2;
                 imgColor.y = this.stage.stageHeight/2;
-                imgColor.rotation = i * nDegreeGap + (nSumColor==3 ? nDegreeGap/2 : 0);
+                imgColor.rotation = (nSumColor==3?1:-1) * i * nDegreeGap + (nSumColor==3 ? nDegreeGap/2 : 0);
                 this.addChild(imgColor);
             }
             this.drawInnerGridsAndStaight(nSumColor);
@@ -56,34 +56,34 @@ module com_main {
         private drawInnerGridsAndStaight(nSumColor:number){
             if(nSumColor==3){
 
-                var shp0: egret.Shape = new egret.Shape;
-                shp0.graphics.lineStyle(5, 0xaaaaaa);
-                shp0.x = this.stage.stageWidth/2;
-                shp0.y = this.stage.stageHeight/2 + 240;
-                shp0.graphics.moveTo(0, 0);
-                shp0.graphics.lineTo(324, 0);
-                shp0.anchorOffsetX = shp0.width/2;
-                this.addChild(shp0);
+                // var shp0: egret.Shape = new egret.Shape;
+                // shp0.graphics.lineStyle(5, 0xaaaaaa);
+                // shp0.x = this.stage.stageWidth/2;
+                // shp0.y = this.stage.stageHeight/2 + 240;
+                // shp0.graphics.moveTo(0, 0);
+                // shp0.graphics.lineTo(324, 0);
+                // shp0.anchorOffsetX = shp0.width/2;
+                // this.addChild(shp0);
 
-                var shp0: egret.Shape = new egret.Shape;
-                shp0.graphics.lineStyle(5, 0xaaaaaa);
-                shp0.x = this.stage.stageWidth/2 - 208;
-                shp0.y = this.stage.stageHeight/2 - 115;
-                shp0.rotation = -60;
-                shp0.graphics.moveTo(0, 0);
-                shp0.graphics.lineTo(324, 0);
-                shp0.anchorOffsetX = shp0.width/2;
-                this.addChild(shp0);
+                // var shp0: egret.Shape = new egret.Shape;
+                // shp0.graphics.lineStyle(5, 0xaaaaaa);
+                // shp0.x = this.stage.stageWidth/2 - 208;
+                // shp0.y = this.stage.stageHeight/2 - 115;
+                // shp0.rotation = -60;
+                // shp0.graphics.moveTo(0, 0);
+                // shp0.graphics.lineTo(324, 0);
+                // shp0.anchorOffsetX = shp0.width/2;
+                // this.addChild(shp0);
 
-                var shp0: egret.Shape = new egret.Shape;
-                shp0.graphics.lineStyle(5, 0xaaaaaa);
-                shp0.x = this.stage.stageWidth/2 + 208;
-                shp0.y = this.stage.stageHeight/2 - 115;
-                shp0.rotation = 60;
-                shp0.graphics.moveTo(0, 0);
-                shp0.graphics.lineTo(324, 0);
-                shp0.anchorOffsetX = shp0.width/2;
-                this.addChild(shp0);
+                // var shp0: egret.Shape = new egret.Shape;
+                // shp0.graphics.lineStyle(5, 0xaaaaaa);
+                // shp0.x = this.stage.stageWidth/2 + 208;
+                // shp0.y = this.stage.stageHeight/2 - 115;
+                // shp0.rotation = 60;
+                // shp0.graphics.moveTo(0, 0);
+                // shp0.graphics.lineTo(324, 0);
+                // shp0.anchorOffsetX = shp0.width/2;
+                // this.addChild(shp0);
                 
                 for(let i=0; i<nSumColor; i++ ) {
                     for(let l:number=0; l<4; l++){
@@ -132,11 +132,13 @@ module com_main {
         private sendLogin() {
 
             var cmd = Number(CMDS.LOGIN);
-            var obj = AGame.ServiceBuilder.newClazz(cmd);
-            obj.uId = AccountInfo.USER_ID;
-            obj.nick = AccountInfo.NICK;
-            obj.photo = "";
-            obj.psw = "";
+            // var obj = AGame.ServiceBuilder.newClazz(cmd);
+            var obj = {
+                uId : AccountInfo.USER_ID,
+                nick : AccountInfo.NICK,
+                photo : "",
+                psw : ""
+            }
             AGame.ServiceBuilder.sendMessage(cmd, obj, this.receiveLogin, this);
             // var wsGetIpGame :AGame.SocketGetGameIp = new AGame.SocketGetGameIp();
             // wsGetIpGame.setConnectInfo(GameConst.IpRequestGame, GameConst.PortRequestGame);

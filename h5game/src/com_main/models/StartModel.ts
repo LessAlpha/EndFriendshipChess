@@ -1,4 +1,4 @@
-import CSocket = AGame.CSocket;
+
 /**  */
 class StartModel {
 
@@ -8,7 +8,7 @@ class StartModel {
         AGame.ServiceBuilder.addProtoHandler(CMDS.LOGIN, StartModel, "LoginReq", "LoginResp");
     }
 
-    public static execute(notification:AGame.INotification) //notification:AGame.INotification)
+    public static execute(notification:AGame.INotification)
     {
         var cmd = notification.getName();
         var body = notification.getBody();
