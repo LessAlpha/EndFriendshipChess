@@ -48,8 +48,8 @@ module com_main {
             //wsGetIpGame.connect(this.receiveLogin, this);
         }
         private receiveLogin(body:any) {
-            AGame.ServiceBuilder.registerProxy(AGame.CSocket.CONNECTED_LOGIN, this.connected, this);
-            AGame.CSocket.getInstance().setConnectInfo(GameConst.IpGame, GameConst.PortGame);
+            // AGame.ServiceBuilder.registerProxy(AGame.CSocket.CONNECTED_LOGIN, this.connected, this);
+            // AGame.CSocket.getInstance().setConnectInfo(GameConst.IpGame, GameConst.PortGame);
             // AGame.CSocket.getInstance().connect();
         }
 

@@ -25,11 +25,11 @@ var Bootstrap = function(){
 
     this.receiveData = function(socket, cmd, data) {
         var objReq = protoHandler.decodeMessage(cmd, data);
-        console.log('receive - ', cmd, objReq);
         switch(cmd) {
             case conf.Cmds.LOGIN:
             case conf.Cmds.REATE_ROOM:
             case conf.Cmds.JOIN_ROOM:
+            case conf.Cmds.DELETE_ROOM:
                 roomModel.handle(cmd, socket, objReq);
                 break;
             case conf.Cmds.START_GAME:

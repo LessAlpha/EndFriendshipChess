@@ -12,12 +12,12 @@ message LoginResp {
 }
 
 message CreateRoomReq {
-	int32 nSumUser = 1;// 人数
+	int32 nSumUser = 1;
 	int32 skin = 2;
 }
 message CreateRoomResp {
 	int32 res = 1;
-	int32 nIdRoom = 2;// 房间ID
+	int32 nIdRoom = 2;
 	int32 nSumUser = 4;
 }
 
@@ -40,14 +40,14 @@ message UserJoin {
 }
 
 message StartGameReq {
-	string n = 1;// 无意义
+	string n = 1;
 }
 message StartGameResp {
 	int32 res = 1;
 }
 
 message OperateLuckyNextResp {
-	int32 nPos = 1;// 下一位操作玩家位置索引
+	int32 nPos = 1;
 }
 
 message OperateLuckyEndReq {
@@ -55,24 +55,24 @@ message OperateLuckyEndReq {
 }
 message OperateLuckyEndResp {
 	int32 res = 1;
-	int32 nPos = 2;// 操作玩家位置索引
-	int32 n = 3;// 摇出的点数
+	int32 nPos = 2;
+	int32 n = 3;
 }
 
 message OperateFlyReq {
-	int32 fInd = 1;// 选定飞机的索引
+	int32 fInd = 1;
 }
 message OperateFlyResp {
-	int32 nPos = 1;// 操作玩家位置索引
-	int32 fInd = 2;// 走动棋子的索引
-	int32 nStep = 3;// 前进点数 摇出的骰子个数
-	int32 nDesti = 4;// 终点格子位置
-	int32 res = 5;// 状态码
+	int32 nPos = 1;
+	int32 fInd = 2;
+	int32 nStep = 3;
+	int32 nDesti = 4;
+	int32 res = 5;
 }
 
 
 message BroadcastRoomInfo {
-	int32 operate = 1;// 1 玩家进入；2 玩家掉线；3 玩家重新上线；
+	int32 operate = 1;
 	string uId = 2;
 	string nick = 3;
 	string photo = 4;
@@ -80,7 +80,7 @@ message BroadcastRoomInfo {
 	string skin = 6;
 }
 message BroadcastOperateInfo {
-	int32 operate = 1;// 1 玩家进入；2 玩家掉线；3 玩家重新上线；
+	int32 operate = 1;
 	string uId = 2;
 	string nick = 3;
 	string photo = 4;
@@ -88,7 +88,6 @@ message BroadcastOperateInfo {
 }
 
 
-// 示例
 message example{
 	string cityId = 1; 
 	LoginResp info = 2;

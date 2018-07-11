@@ -11,7 +11,7 @@ module AGame {
 		private m_pViewEvents: any = {};
 
 		/** 注册接收数据后的数据解析回调 */
-		public registerModel(protocol: number, commandClassRef: any, reqClass: string, resClass: string = null) {
+		public registerModel(protocol: number, commandClassRef: any, reqClass: Function, resClass: Function = null) {
 			if (resClass) {
 				this.m_pProtocolMap[protocol] = [commandClassRef, reqClass, resClass];
 			} else {
@@ -72,12 +72,20 @@ module AGame {
 
 		/** 解码服务端发送过来的数据，接收到数据时解析 */
 		public encode(protocol: number, dataSend: any) {
-			
-			return ;//this.m_pBuilder.encode(this.getProtoByReq(protocol), dataSend);
+			// var req = this.getProtoByReq(protocol);
+			// var errMsg = req.verify(dataSend);// 不可靠的验证方法
+			// if(errMsg)    throw Error(errMsg);
+			// var dataMessage = req.create(dataSend);
+			// var bufferSend = req.encode(dataMessage).finish();
+			// return bufferSend;
+			return JSON.stringify(dataSend);
 		}
 		/** 解码服务端发送过来的数据，接收到数据时解析 */
-		public decode(protocol: number, buffer: any) {
-			return ;//this.m_pBuilder.decode(this.getProtoByResp(protocol), buffer);
+		public decode(protocol: number, bufferReceive: any) {
+			// var resp = this.getProtoByResp(protocol);
+        	// var dataDecode = resp.decode(bufferReceive);
+			// return dataDecode;
+			return JSON.parse(bufferReceive);
 		}
 
 		private static REQ_RESP_DIFF = 0;
@@ -91,7 +99,7 @@ module AGame {
 		}
 
 		/** 添加一项从服务端接收数据后的解析和事件派发 */
-		public static addProtoHandler(protocol: number, commandClassRef: any, reqClass: string, resClass: string = null) {
+		public static addProtoHandler(protocol: number, commandClassRef: any, reqClass: Function, resClass: Function = null) {
 			ServiceBuilder.Instance.registerModel(protocol, commandClassRef, reqClass, resClass);
 		}
 		/** 从服务端接收数据后的解析和事件派发 */

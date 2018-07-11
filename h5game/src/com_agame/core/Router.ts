@@ -48,7 +48,7 @@ module AGame {
 	}
 
 	export class Router implements IRouter{
-		private m_pCommandMap:Object = null;// 
+		private m_pCommandMap:Object = null;
 		private m_pObserver:HandlerObserver;
 		
 		constructor()

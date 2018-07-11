@@ -39,10 +39,10 @@ module com_main {
 
             if(this.lbIdRoom.text=='')   return;
             AGame.info('nIdRoom =', this.lbIdRoom.text);
-            var cmd = CMDS.JOIN_ROOM;
-            var obj = AGame.ServiceBuilder.newClazz(cmd);
-            obj.nIdRoom = parseInt(this.lbIdRoom.text);
-            AGame.ServiceBuilder.sendMessage(cmd, obj, this.receiveJoin, this);
+            // var cmd = CMDS.JOIN_ROOM;
+            // var obj = AGame.ServiceBuilder.newClazz(cmd);
+            // obj.nIdRoom = parseInt(this.lbIdRoom.text);
+            // AGame.ServiceBuilder.sendMessage(cmd, obj, this.receiveJoin, this);
         }
         private receiveJoin(notif:AGame.Notification){
             if(notif.getBody().res!=0)  return;
@@ -50,11 +50,11 @@ module com_main {
         }
 
         private touchCreate() {
-            var cmd = CMDS.CREATE_ROOM;
-            var obj = AGame.ServiceBuilder.newClazz(cmd);
-            obj.nSumUser = 4;
-            obj.skin = AccountInfo.SKIN_USING;
-            AGame.ServiceBuilder.sendMessage(cmd, obj, this.receiveCreate, this);
+            // var cmd = CMDS.CREATE_ROOM;
+            // var obj = AGame.ServiceBuilder.newClazz(cmd);
+            // obj.nSumUser = 4;
+            // obj.skin = AccountInfo.SKIN_USING;
+            // AGame.ServiceBuilder.sendMessage(cmd, obj, this.receiveCreate, this);
         }
         private receiveCreate(notif:AGame.Notification){
             if(notif.getBody().res!=0)  return;

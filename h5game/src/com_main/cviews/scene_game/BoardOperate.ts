@@ -58,11 +58,11 @@ module com_main {
         }
 
         private touchBtnOperate(){
-            var cmd = CMDS.OPERATE_LUCKY_END;
-            var obj = AGame.ServiceBuilder.newClazz(cmd);
-            obj.nPos = GameData.userInfoMe.nPos;
-            AGame.ServiceBuilder.sendMessage(cmd, obj);
-            this.btnOperate.visible = false;
+            // var cmd = CMDS.OPERATE_LUCKY_END;
+            // var obj = AGame.ServiceBuilder.newClazz(cmd);
+            // obj.nPos = GameData.userInfoMe.nPos;
+            // AGame.ServiceBuilder.sendMessage(cmd, obj);
+            // this.btnOperate.visible = false;
         }
 
 

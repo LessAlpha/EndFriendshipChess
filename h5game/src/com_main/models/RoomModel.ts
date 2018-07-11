@@ -2,10 +2,9 @@
 class RoomModel {
 
     public static register() {
-        AGame.ServiceBuilder.addProtoHandler(CMDS.CREATE_ROOM, RoomModel, "CreateRoomReq", "CreateRoomResp");
-        AGame.ServiceBuilder.addProtoHandler(CMDS.JOIN_ROOM, RoomModel, "JoinRoomReq", "JoinRoomResp");
-
-        AGame.ServiceBuilder.addProtoHandler(CMDS.BROADCAST_ROOM_INFO, RoomModel, null, "BroadcastRoomInfo");
+        // AGame.ServiceBuilder.addProtoHandler(CMDS.CREATE_ROOM, RoomModel, "CreateRoomReq", "CreateRoomResp");
+        // AGame.ServiceBuilder.addProtoHandler(CMDS.JOIN_ROOM, RoomModel, "JoinRoomReq", "JoinRoomResp");
+        // AGame.ServiceBuilder.addProtoHandler(CMDS.BROADCAST_ROOM_INFO, RoomModel, null, "BroadcastRoomInfo");
         
     }
 

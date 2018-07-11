@@ -28,6 +28,7 @@ module com_main {
                 case PublicNav.ADD_POP_TIP_OFFLINE:
                     let popOffline = new PopTipOffline;
                     UpManager.popSmallView(popOffline);
+                    break;
                     
             }
         }

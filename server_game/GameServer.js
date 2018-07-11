@@ -1,5 +1,5 @@
 /**
- * 启动类
+ * 游戏服 - 启动类
  */
 
 var express = require('express');
@@ -16,6 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));// 设置静态资源根
 
 app.all('*', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
+    // res.header("Content-Type", "application/json; charset=utf-8");
     next();
 });
 

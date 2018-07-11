@@ -37,8 +37,8 @@ exports.handle = function(cmd, socket, objReq){
             var roomInfo = datagame.roomsInfo[objReq.nIdRoom];
             if(!roomInfo) {
                 nStatus = conf.StatusCode.ROOM_NO_THIS;
-            } else if(roomInfo.bStarted) {
-                nStatus = conf.StatusCode.ROOM_PLAYING;
+            // } else if(roomInfo.bStarted) {
+            //     nStatus = conf.StatusCode.ROOM_PLAYING;
             } else if(roomInfo.getSumUserJoined()==roomInfo.nSumUser) {
                 nStatus = conf.StatusCode.ROOM_FULL;
             }
@@ -51,7 +51,19 @@ exports.handle = function(cmd, socket, objReq){
             }
             protoHandler.sendMessage(socket, conf.Cmds.JOIN_ROOM, objResp);
             break;
-        
-        
+        case conf.Cmds.DELETE_ROOM:
+            userInfo = datagame.getUserInfoBySocket(socket);
+            var room = datagame.getRoomByUserInfo(userInfo);
+            if(room.userInfoHost != userInfo) {
+                nStatus = conf.StatusCode.NOT_HOST_OF_ROOM;
+            } else if(roomInfo.bStarted) {
+                nStatus = conf.StatusCode.ROOM_PLAYING;
+            } else {
+                room.deleteRoom();
+                return;
+            }
+            protoHandler.sendMessage(socket, conf.Cmds.DELETE_ROOM, objResp);
+            break;
+                
     }
 }

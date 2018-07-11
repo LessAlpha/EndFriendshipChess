@@ -132,7 +132,6 @@ module com_main {
         private sendLogin() {
 
             var cmd = Number(CMDS.LOGIN);
-            // var obj = AGame.ServiceBuilder.newClazz(cmd);
             var obj = {
                 uId : AccountInfo.USER_ID,
                 nick : AccountInfo.NICK,

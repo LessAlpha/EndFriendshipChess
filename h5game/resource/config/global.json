@@ -1,4 +1,4 @@
 {
     "urlHttp" : "http://127.0.0.1:18080",
-    "urlSocket" : ""
+    "urlSocket" : "http://127.0.0.1:18080"
 }

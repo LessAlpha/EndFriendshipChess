@@ -44,10 +44,10 @@ module com_main {
 
         private touchStartGame(){
             
-            var cmd = CMDS.START_GAME;
-            var obj = AGame.ServiceBuilder.newClazz(cmd);
-            obj.n = "";
-            AGame.ServiceBuilder.sendMessage(cmd, obj, this.receiveStartGame, this);
+            // var cmd = CMDS.START_GAME;
+            // var obj = AGame.ServiceBuilder.newClazz(cmd);
+            // obj.n = "";
+            // AGame.ServiceBuilder.sendMessage(cmd, obj, this.receiveStartGame, this);
         }
         
         private receiveStartGame(notif: AGame.Notification){

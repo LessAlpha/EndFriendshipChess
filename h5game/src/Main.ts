@@ -25,18 +25,22 @@ class Main extends eui.UILayer {
     private onResourceLoadComplete():void {
         this.isResourceLoadEnd = true;
         this.createScene();
-        AGame.HttpClient.serverUrl = RES.getRes('global').urlHttp;
         // AGame.HttpClient.get("/", (data)=>{
         //     AGame.info('/', data);
         //     RES.getRes('global').urlSocket = data.urlSocket;
-            AGame.CSocket.getInstance().connect("http://127.0.0.1:18080/");
+            // AGame.SocketIO.SocketCur.connect();
         // }, this, '');
+        // game.LoginReq.create({});
+
     }
 
     private createScene(){
         if(this.isThemeLoadEnd && this.isResourceLoadEnd) {
             com_main.Bootstrap.startup(this);
-            AGame.R.notifyObserver(StartNav.ADD_START);
+            // AGame.R.notifyObserver(StartNav.ADD_START);
+            AGame.HttpClient.serverUrl = RES.getRes('global').urlHttp;
+            AGame.SocketLogin.getInst.uriOfSocket = RES.getRes('global').urlSocket;
+            AGame.SocketLogin.getInst.connect();
         }
     }
 

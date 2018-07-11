@@ -75,11 +75,11 @@ module com_main {
         private selectedMove(evt:egret.TouchEvent){
             this.touchChildren =false;
 
-            var nInd = this.arrFlyUsers[GameData.userInfoMe.nPos].indexOf(evt.target);
-            var cmd = CMDS.OPERATE_FLY;
-            var obj = AGame.ServiceBuilder.newClazz(cmd);
-            obj.fInd = nInd;
-            AGame.ServiceBuilder.sendMessage(cmd, obj);
+            // var nInd = this.arrFlyUsers[GameData.userInfoMe.nPos].indexOf(evt.target);
+            // var cmd = CMDS.OPERATE_FLY;
+            // var obj = AGame.ServiceBuilder.newClazz(cmd);
+            // obj.fInd = nInd;
+            // AGame.ServiceBuilder.sendMessage(cmd, obj);
         }
 
 

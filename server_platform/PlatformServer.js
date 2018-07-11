@@ -8,7 +8,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);// Server实例
 var path = require('path');
 var bootstrap = new (require('./src/Bootstrap'))(io);
-var db = new (require('./src/database/DB'))();
+// var db = new (require('./src/database/DB'))();
 var net = require('./src/utils/net');
 // var fs = require('fs');
 

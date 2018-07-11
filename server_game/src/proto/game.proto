@@ -1,42 +1,38 @@
 syntax = "proto3";
+package = "game";
 
-
-// 100 通用响应
 message CommonResp {
-	string cmd = 1;// 指令号
-	int32 res = 2;// 状态码
-	string desc = 3;// 信息提示
+	string cmd = 1;
+	int32 res = 2;
+	string desc = 3;
+	string psw = 4;
 }
 
-
-// 1 用户登陆请求
+// 登陆
 message LoginReq {
-	string uId = 1;// 用户ID
-	string nick = 2;// 昵称
-	string photo = 3;// 头像索引或地址
+	string uId = 1;
+	string nick = 2;
+	string photo = 3;
+	string psw = 4;
 }
-//  用户登陆响应
 message LoginResp {
-	int32 res = 1;// 状态码 0：成功 1：密码错误
+	int32 res = 1;
 	
 }
-
-// 2 创建房间
+// 建房
 message CreateRoomReq {
-	int32 nSumUser = 1;// 房间人数
+	int32 nSumUser = 1;
 }
-// 创建房间的响应
 message CreateRoomResp {
 	int32 res = 1;
-	int32 nIdRoom = 2;// 房间ID
-	int32 nSumUser = 4;// 房间人数
+	int32 nIdRoom = 2;
+	int32 nSumUser = 4;
 }
 
-// 3 加入房间
+// 进房
 message JoinRoomReq {
-	int32 nIdRoom = 1;// 房号
+	int32 nIdRoom = 1;
 }
-// 加入房间的响应：
 message JoinRoomResp {
 	int32 res = 1;
 	int32 nIdRoom = 2;
@@ -44,6 +40,7 @@ message JoinRoomResp {
 	string uIdHost = 4;
 	repeated UserJoin users = 5;
 }
+
 // 加入房间玩家信息结构体
 message UserJoin {
 	string uId = 1;

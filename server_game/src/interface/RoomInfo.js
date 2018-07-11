@@ -17,9 +17,14 @@ var RoomInfo = function(){
     this.bStarted = null;// 是否已经开始游戏
     this.nIndOperating = null;// 操作玩家的位置索引 从0开始
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //  座位逻辑
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     // 初始化房间参数
     this.init = function(userInfoHost, nSumUser) {
         this.nIdRoom = datagame.generateIdRoom();
+        datagame.idsRoomUsing.push(idRoom);
         this.nSumUser = nSumUser;
         this.nSumGridsRound = conf.MapGrids[nSumUser-3].NSumRound;
         this.nSumGridsRoad = conf.MapGrids[nSumUser-3].NSumRoad;
@@ -28,6 +33,7 @@ var RoomInfo = function(){
         this.nIndOperating = -1;
         this.newUserJoin(userInfoHost);
     }
+
 
     // 新用户加入
     this.newUserJoin = function(userInfo) {
@@ -44,6 +50,10 @@ var RoomInfo = function(){
         return this.arrUserInfo.length;
     }
 
+    // TODO 解散房间 
+    this.deleteRoom = function(){
+
+    }
     
     this.collectInfoBasic = function() {
         var arrUserJoined = [];
@@ -62,6 +72,9 @@ var RoomInfo = function(){
         return arrUserJoined;
     };
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //  战斗逻辑
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     this.startGame = function() {
         this.bStarted = true;

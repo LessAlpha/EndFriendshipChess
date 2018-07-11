@@ -29,7 +29,6 @@ exports.generateIdRoom = function() {
         }
         idRoom = parseInt(strId);
     } while(this.idsRoomUsing.indexOf(idRoom)!=-1)
-    this.idsRoomUsing.push(idRoom);
     return idRoom;
 };
 
@@ -46,6 +45,7 @@ exports.getUserInfoBySocket = function(socketId) {
     if(userInfo)      return userInfo;
     else    return null;
 }
+
 
 exports.getRoomByUserInfo = function(userInfo){
     return datagame.roomsInfo[userInfo.nIdRoom];

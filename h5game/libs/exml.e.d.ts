@@ -10,8 +10,6 @@ declare class PopTipSizeSmall extends eui.Skin{
 }
 declare class TipDuration extends eui.Skin{
 }
-declare class SceneIndex extends eui.Skin{
-}
 declare class BoardGrid extends eui.Skin{
 }
 declare class BoardOperate extends eui.Skin{
@@ -21,6 +19,8 @@ declare class BoardUsers extends eui.Skin{
 declare class BoardWaitBegin extends eui.Skin{
 }
 declare class SceneGame extends eui.Skin{
+}
+declare class SceneIndex extends eui.Skin{
 }
 declare class SceneStart extends eui.Skin{
 }

@@ -47,7 +47,7 @@ var UserInfo = function(uId, nick, photo) {
             return false;
         }
     };
-
+    /** 产生骰子数字 */
     this.generateDotLucky = function(){
         this.nDotLucky = Math.ceil(Math.random()*6);
         // if(this.nDotLucky==6)   this.setPrizeGrid(enums.TypeGrid.ONE_MORE);// 产生6则奖励一次
